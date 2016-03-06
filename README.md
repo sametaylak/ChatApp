@@ -4,4 +4,4 @@ MeteorJS ile geliştirilmiş basit bir chat uygulamasıdır.
 
 # Gereksinimler
 
- - MeteorJS -> https://www.meteor.com
+ - MeteorJS -> https://www.meteor.com 
