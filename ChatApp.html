@@ -1,0 +1,23 @@
+<head>
+  <title>Chat App</title>
+</head>
+ 
+<body>
+  <div class="container">
+    <header>
+      <h1>Mesajlar</h1>
+      <form class="new-msg">
+        <input type="text" name="text" placeholder="Mesajınız" />
+      </form>
+    </header>
+    <ul>
+      {{#each messages}}
+        {{> message}}
+      {{/each}}
+    </ul>
+  </div>
+</body>
+ 
+<template name="message">
+  <li>{{text}}</li>
+</template>
